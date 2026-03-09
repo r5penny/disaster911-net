@@ -55,8 +55,8 @@
 
 // ── Configuration ─────────────────────────────────────────────────────────────
 
-const GOOGLE_MAPS_API_KEY = 'YOUR_GOOGLE_MAPS_API_KEY_HERE';
-const GOOGLE_PLACE_ID     = 'YOUR_GOOGLE_PLACE_ID_HERE';
+const GOOGLE_MAPS_API_KEY = 'AIzaSyBC5dhOnB4mUMgDtv9RW3js9EAigDiHTMw';
+const GOOGLE_PLACE_ID     = 'ChIJ9f8TU0GyGYgRKUghuAZi1Mo';
 
 // Only show reviews with this many stars or more (4 or 5)
 const GR_MIN_STARS = 4;
