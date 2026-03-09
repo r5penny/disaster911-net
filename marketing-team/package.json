@@ -1,0 +1,26 @@
+{
+  "name": "disaster911-marketing-team",
+  "version": "1.0.0",
+  "description": "Automated digital marketing agents for disaster911.net",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "audit": "node index.js audit",
+    "gbp": "node index.js gbp",
+    "citations": "node index.js citations",
+    "seo": "node index.js seo",
+    "generate": "node index.js generate",
+    "full": "node index.js full"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "googleapis": "^144.0.0",
+    "node-cron": "^3.0.3",
+    "open": "^8.4.2",
+    "ora": "^5.4.1",
+    "fs-extra": "^11.2.0"
+  }
+}

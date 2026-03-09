@@ -1,0 +1,145 @@
+{
+  "_comment": "Canonical business data — single source of truth for all marketing agents. Update this file whenever business info changes.",
+  "name": "Disaster Response by Ryan",
+  "legalName": "Disaster Response by Ryan LLC",
+  "owner": {
+    "name": "Ryan Penny",
+    "email": "rpenny@disaster911.net",
+    "title": "Owner & Lead Restoration Technician"
+  },
+  "contact": {
+    "phone": "(616) 822-1978",
+    "phoneRaw": "6168221978",
+    "phoneTollFree": null,
+    "email": "rpenny@disaster911.net",
+    "website": "https://disaster911.net"
+  },
+  "address": {
+    "street": "3707 Northridge Dr NW STE 10",
+    "city": "Walker",
+    "state": "MI",
+    "stateFullName": "Michigan",
+    "zip": "49544",
+    "country": "US",
+    "full": "3707 Northridge Dr NW STE 10, Walker, MI 49544",
+    "fullWithCountry": "3707 Northridge Dr NW STE 10, Walker, MI 49544, USA"
+  },
+  "geo": {
+    "latitude": 42.9834,
+    "longitude": -85.7681
+  },
+  "hours": {
+    "emergency": "24/7/365",
+    "office": {
+      "monday":    "8:00 AM – 6:00 PM",
+      "tuesday":   "8:00 AM – 6:00 PM",
+      "wednesday": "8:00 AM – 6:00 PM",
+      "thursday":  "8:00 AM – 6:00 PM",
+      "friday":    "8:00 AM – 6:00 PM",
+      "saturday":  "9:00 AM – 4:00 PM",
+      "sunday":    "Emergency calls only"
+    }
+  },
+  "google": {
+    "cid": "14615414471722616873",
+    "mapsUrl": "https://www.google.com/maps?cid=14615414471722616873",
+    "placesUrl": "https://maps.google.com/?q=Disaster+Response+by+Ryan+Walker+MI",
+    "rating": 5.0,
+    "reviewCount": 150,
+    "reviewUrl": "https://g.page/r/14615414471722616873/review"
+  },
+  "certifications": [
+    {
+      "name": "IICRC Certified Firm",
+      "issuer": "Institute of Inspection, Cleaning and Restoration Certification",
+      "url": "https://www.iicrc.org"
+    },
+    {
+      "name": "WTR — Water Damage Restoration Technician",
+      "issuer": "IICRC"
+    },
+    {
+      "name": "ASD — Applied Structural Drying Technician",
+      "issuer": "IICRC"
+    }
+  ],
+  "insurance": {
+    "licensed": true,
+    "insured": true,
+    "bonded": true
+  },
+  "services": [
+    {
+      "name": "Water Damage Restoration",
+      "slug": "water-damage-restoration",
+      "url": "https://disaster911.net/water-damage-restoration/",
+      "description": "Emergency water extraction, structural drying, and full restoration after floods, burst pipes, or appliance leaks.",
+      "emergency": true
+    },
+    {
+      "name": "Fire Damage Restoration",
+      "slug": "fire-damage-restoration",
+      "url": "https://disaster911.net/fire-damage-restoration/",
+      "description": "Smoke and soot cleanup, odor elimination, content restoration, and structural repair after fire damage.",
+      "emergency": true
+    },
+    {
+      "name": "Mold Remediation",
+      "slug": "mold-remediation",
+      "url": "https://disaster911.net/mold-remediation/",
+      "description": "Safe mold testing, containment, removal, and prevention to protect your home's air quality and structure.",
+      "emergency": false
+    },
+    {
+      "name": "Sewage Cleanup",
+      "slug": "sewage-cleanup",
+      "url": "https://disaster911.net/sewage-cleanup/",
+      "description": "Biohazard-safe sewage backup cleanup, disinfection, and structural drying.",
+      "emergency": true
+    }
+  ],
+  "serviceArea": {
+    "primary": "Walker, MI",
+    "metro": "Grand Rapids, MI",
+    "cities": [
+      "Grand Rapids", "Walker", "Kentwood", "Wyoming", "Grandville",
+      "Byron Center", "Caledonia", "Rockford", "Lowell", "Ada",
+      "Cascade Township", "East Grand Rapids", "Hudsonville",
+      "Jenison", "Zeeland", "Holland", "Allendale", "Coopersville",
+      "Muskegon", "Cedar Springs"
+    ],
+    "counties": ["Kent County", "Ottawa County", "Muskegon County"],
+    "region": "West Michigan"
+  },
+  "socialMedia": {
+    "facebook": "https://www.facebook.com/disaster911net",
+    "instagram": null,
+    "twitter": null,
+    "linkedin": null,
+    "nextdoor": null
+  },
+  "seo": {
+    "primaryKeywords": [
+      "water damage restoration Grand Rapids",
+      "fire damage restoration Grand Rapids",
+      "mold remediation Grand Rapids",
+      "sewage cleanup Grand Rapids",
+      "emergency restoration Walker MI",
+      "disaster restoration West Michigan"
+    ],
+    "topPages": [
+      "https://disaster911.net/",
+      "https://disaster911.net/water-damage-restoration/",
+      "https://disaster911.net/fire-damage-restoration/",
+      "https://disaster911.net/mold-remediation/",
+      "https://disaster911.net/sewage-cleanup/"
+    ],
+    "topCityPages": [
+      "https://disaster911.net/service-areas/grand-rapids/water-damage-restoration/",
+      "https://disaster911.net/service-areas/kentwood/water-damage-restoration/",
+      "https://disaster911.net/service-areas/wyoming/water-damage-restoration/"
+    ],
+    "sitemapUrl": "https://disaster911.net/sitemap.xml"
+  },
+  "lastUpdated": "2026-03-08"
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Google Business Profile",
+    "url": "https://business.google.com",
+    "checkUrl": "https://www.google.com/maps?cid=14615414471722616873",
+    "submitUrl": "https://business.google.com/create",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Primary listing — manage via GBP API or Google Business dashboard"
+  },
+  {
+    "name": "Yelp",
+    "url": "https://www.yelp.com",
+    "checkUrl": "https://www.yelp.com/search?find_desc=Disaster+Response+by+Ryan&find_loc=Walker%2C+MI",
+    "submitUrl": "https://biz.yelp.com/claim",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Claim or create listing at biz.yelp.com"
+  },
+  {
+    "name": "Angi (formerly Angie's List)",
+    "url": "https://www.angi.com",
+    "checkUrl": "https://www.angi.com/companylist/us/mi/walker/disaster-response-by-ryan-reviews-",
+    "submitUrl": "https://pro.angi.com/",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Pro account required; generates leads in addition to citation"
+  },
+  {
+    "name": "HomeAdvisor",
+    "url": "https://www.homeadvisor.com",
+    "checkUrl": "https://www.homeadvisor.com/rated.DisasterResponsebyRyan.html",
+    "submitUrl": "https://pro.homeadvisor.com/",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Part of Angi network; separate profile possible"
+  },
+  {
+    "name": "BBB (Better Business Bureau)",
+    "url": "https://www.bbb.org",
+    "checkUrl": "https://www.bbb.org/search?find_country=USA&find_entity=10042&find_id=20&find_loc=Walker%2C+MI&find_text=Disaster+Response+by+Ryan&find_type=Name&page=1&touched=1",
+    "submitUrl": "https://www.bbb.org/business-profile-application",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "BBB accreditation builds significant trust signals"
+  },
+  {
+    "name": "Facebook Business",
+    "url": "https://www.facebook.com",
+    "checkUrl": "https://www.facebook.com/search/pages/?q=Disaster+Response+by+Ryan+Walker+MI",
+    "submitUrl": "https://www.facebook.com/pages/create",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Business Page — also enables Facebook reviews and local reach"
+  },
+  {
+    "name": "Bing Places",
+    "url": "https://www.bingplaces.com",
+    "checkUrl": "https://www.bing.com/maps?q=Disaster+Response+by+Ryan+Walker+MI",
+    "submitUrl": "https://www.bingplaces.com/",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Can import from Google Business Profile — fast setup"
+  },
+  {
+    "name": "Apple Maps",
+    "url": "https://maps.apple.com",
+    "checkUrl": "https://maps.apple.com/?q=Disaster+Response+by+Ryan+Walker+MI",
+    "submitUrl": "https://mapsconnect.apple.com/",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Apple Maps Connect — important for iOS/Siri local search"
+  },
+  {
+    "name": "IICRC Certified Firm Directory",
+    "url": "https://www.iicrc.org",
+    "checkUrl": "https://www.iicrc.org/page/FindaCertifiedFirmCompany",
+    "submitUrl": "https://www.iicrc.org/page/ApplyforCertification",
+    "priority": "high",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Industry-specific trust signal — critical for restoration businesses"
+  },
+  {
+    "name": "Yellow Pages",
+    "url": "https://www.yellowpages.com",
+    "checkUrl": "https://www.yellowpages.com/walker-mi/mip/disaster-response-by-ryan",
+    "submitUrl": "https://www.yellowpages.com/free-listing",
+    "priority": "medium",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Still a significant local citation source"
+  },
+  {
+    "name": "Houzz",
+    "url": "https://www.houzz.com",
+    "checkUrl": "https://www.houzz.com/professionals/search?location=Walker%2C+MI&query=Disaster+Response+by+Ryan",
+    "submitUrl": "https://www.houzz.com/for-professionals/overview",
+    "priority": "medium",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Home services focused — good for mold/water damage"
+  },
+  {
+    "name": "Thumbtack",
+    "url": "https://www.thumbtack.com",
+    "checkUrl": "https://www.thumbtack.com/mi/walker/water-damage-restoration/",
+    "submitUrl": "https://www.thumbtack.com/pro/",
+    "priority": "medium",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Lead generation + citation; pay-per-lead model"
+  },
+  {
+    "name": "Nextdoor Business",
+    "url": "https://nextdoor.com",
+    "checkUrl": "https://nextdoor.com/pages/disaster-response-by-ryan-walker-mi/",
+    "submitUrl": "https://business.nextdoor.com/",
+    "priority": "medium",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Neighborhood social network — very high local trust"
+  },
+  {
+    "name": "Manta",
+    "url": "https://www.manta.com",
+    "checkUrl": "https://www.manta.com/mb_46_A424C0A9_M/disaster_response_by_ryan",
+    "submitUrl": "https://www.manta.com/claim",
+    "priority": "medium",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Small business directory with decent domain authority"
+  },
+  {
+    "name": "Foursquare",
+    "url": "https://foursquare.com",
+    "checkUrl": "https://foursquare.com/v/disaster-response-by-ryan/",
+    "submitUrl": "https://business.foursquare.com/",
+    "priority": "low",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Powers many other data aggregators"
+  },
+  {
+    "name": "Citysearch",
+    "url": "http://www.citysearch.com",
+    "checkUrl": "http://www.citysearch.com/search?q=disaster+response+by+ryan&where=Walker%2C+MI",
+    "submitUrl": "http://www.citysearch.com/",
+    "priority": "low",
+    "listed": false,
+    "napStatus": "unchecked",
+    "notes": "Legacy directory; still crawled by aggregators"
+  }
+]
