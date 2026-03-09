@@ -1,0 +1,24 @@
+# SEO REDIRECTS - Disaster Response by Ryan
+# March 4, 2026 - Migration from WordPress to Static HTML
+
+RewriteEngine On
+
+# --- CRITICAL: FIX GRAND RAPIDS CANNIBALIZATION ---
+# Points all 3 old competing pages to the new master city page
+Redirect 301 /water-damage-restoration-grand-rapids-mi-a-complete-guide/ https://disaster911.net/water-damage-restoration/grand-rapids-mi/
+Redirect 301 /water-damage-restoration-grand-rapids-a-comprehensive-guide/ https://disaster911.net/water-damage-restoration/grand-rapids-mi/
+Redirect 301 /grand-rapids-water-damage/ https://disaster911.net/water-damage-restoration/grand-rapids-mi/
+
+# --- GENERAL WORDPRESS CLEANUP ---
+# Removes index.php from URLs if they still exist in links
+RewriteRule ^index\.php$ / [L,R=301]
+
+# --- SSL & TRAILING SLASH ---
+# Ensures your site always uses HTTPS and looks professional
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Handle folders without trailing slashes (improves SEO)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ https://disaster911.net/$1/ [L,R=301]

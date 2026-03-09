@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Michigan Builder's License">
+
+  <!-- Outer circle -->
+  <circle cx="200" cy="200" r="195" fill="#ffffff" stroke="#1a3a5c" stroke-width="6"/>
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#1a3a5c" stroke-width="2"/>
+
+  <!-- Background fill -->
+  <circle cx="200" cy="200" r="178" fill="#0d2137"/>
+
+  <!-- State of Michigan silhouette (simplified) -->
+  <text x="200" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="#c8a84b" font-weight="bold">MI</text>
+
+  <!-- Top arc text -->
+  <path id="topArc" d="M 50,200 A 150,150 0 0,1 350,200" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="22" fill="#c8a84b" font-weight="bold" letter-spacing="2">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">LICENSED BUILDER</textPath>
+  </text>
+
+  <!-- Divider lines -->
+  <line x1="80" y1="175" x2="320" y2="175" stroke="#c8a84b" stroke-width="1.5" opacity="0.5"/>
+  <line x1="80" y1="265" x2="320" y2="265" stroke="#c8a84b" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- License number -->
+  <text x="200" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#ffffff" letter-spacing="1">#2101187907</text>
+
+  <!-- Bottom text -->
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#c8a84b">STATE OF MICHIGAN</text>
+
+  <!-- Bottom arc text -->
+  <path id="bottomArc" d="M 65,200 A 135,135 0 0,0 335,200" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="16" fill="#ffffff" letter-spacing="1">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">RESIDENTIAL &amp; COMMERCIAL</textPath>
+  </text>
+
+</svg>

@@ -1,0 +1,6 @@
+Contact: mailto:rpenny@disaster911.net
+Contact: tel:+16168221978
+Expires: 2027-02-22T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://disaster911.net/.well-known/security.txt
+Policy: https://disaster911.net/privacy-policy/

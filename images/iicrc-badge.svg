@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="IICRC Certified Firm">
+
+  <!-- Outer circle border -->
+  <circle cx="200" cy="200" r="195" fill="#ffffff" stroke="#c5c6c7" stroke-width="2.5"/>
+
+  <!-- ═══════════════════════════════════════
+       IICRC GLOBE — 7×7 dot grid
+       Center: (110, 115), spacing: 17px
+       ═══════════════════════════════════════ -->
+
+  <!-- Row 1 (top) — 5 dots, all blue -->
+  <ellipse cx="76"  cy="64"  rx="8"   ry="9.5" fill="#0069AA"/>
+  <ellipse cx="93"  cy="62"  rx="8.5" ry="10"  fill="#0087C2"/>
+  <ellipse cx="110" cy="60"  rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="127" cy="62"  rx="8.5" ry="10"  fill="#0087C2"/>
+  <ellipse cx="144" cy="64"  rx="8"   ry="9.5" fill="#0069AA"/>
+
+  <!-- Row 2 — 7 dots, blue outer, green inner -->
+  <ellipse cx="59"  cy="81"  rx="7.5" ry="9"   fill="#0069AA"/>
+  <ellipse cx="76"  cy="79"  rx="8"   ry="9.5" fill="#0087C2"/>
+  <ellipse cx="93"  cy="77"  rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="110" cy="75"  rx="9"   ry="10.5" fill="#8CC63F"/>
+  <ellipse cx="127" cy="77"  rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="144" cy="79"  rx="8"   ry="9.5" fill="#0087C2"/>
+  <ellipse cx="161" cy="81"  rx="7.5" ry="9"   fill="#0069AA"/>
+
+  <!-- Row 3 — 7 dots, blue outer, green center -->
+  <ellipse cx="59"  cy="98"  rx="7.5" ry="9"   fill="#0069AA"/>
+  <ellipse cx="76"  cy="96"  rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="93"  cy="94"  rx="9"   ry="10.5" fill="#8CC63F"/>
+  <ellipse cx="110" cy="92"  rx="9"   ry="10.5" fill="#8CC63F"/>
+  <ellipse cx="127" cy="94"  rx="9"   ry="10.5" fill="#6DB43F"/>
+  <ellipse cx="144" cy="96"  rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="161" cy="98"  rx="7.5" ry="9"   fill="#0087C2"/>
+
+  <!-- Row 4 (center row) — 7 dots, mostly green -->
+  <ellipse cx="59"  cy="115" rx="7.5" ry="9"   fill="#0087C2"/>
+  <ellipse cx="76"  cy="113" rx="9"   ry="10.5" fill="#8CC63F"/>
+  <ellipse cx="93"  cy="111" rx="9"   ry="10.5" fill="#6DB43F"/>
+  <ellipse cx="110" cy="109" rx="9.5" ry="11"  fill="#56A33C"/>
+  <ellipse cx="127" cy="111" rx="9"   ry="10.5" fill="#8CC63F"/>
+  <ellipse cx="144" cy="113" rx="9"   ry="10.5" fill="#6DB43F"/>
+  <ellipse cx="161" cy="115" rx="7.5" ry="9"   fill="#009DD8"/>
+
+  <!-- Row 5 — 7 dots, blue outer, green center -->
+  <ellipse cx="59"  cy="132" rx="7.5" ry="9"   fill="#0069AA"/>
+  <ellipse cx="76"  cy="130" rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="93"  cy="128" rx="9"   ry="10.5" fill="#8CC63F"/>
+  <ellipse cx="110" cy="126" rx="9"   ry="10.5" fill="#8CC63F"/>
+  <ellipse cx="127" cy="128" rx="9"   ry="10.5" fill="#6DB43F"/>
+  <ellipse cx="144" cy="130" rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="161" cy="132" rx="7.5" ry="9"   fill="#0087C2"/>
+
+  <!-- Row 6 — 7 dots, blue outer, green inner -->
+  <ellipse cx="59"  cy="149" rx="7.5" ry="9"   fill="#0069AA"/>
+  <ellipse cx="76"  cy="147" rx="8"   ry="9.5" fill="#0087C2"/>
+  <ellipse cx="93"  cy="145" rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="110" cy="143" rx="9"   ry="10.5" fill="#8CC63F"/>
+  <ellipse cx="127" cy="145" rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="144" cy="147" rx="8"   ry="9.5" fill="#0087C2"/>
+  <ellipse cx="161" cy="149" rx="7.5" ry="9"   fill="#0069AA"/>
+
+  <!-- Row 7 (bottom) — 5 dots, all blue -->
+  <ellipse cx="76"  cy="166" rx="8"   ry="9.5" fill="#0069AA"/>
+  <ellipse cx="93"  cy="164" rx="8.5" ry="10"  fill="#0087C2"/>
+  <ellipse cx="110" cy="162" rx="8.5" ry="10"  fill="#009DD8"/>
+  <ellipse cx="127" cy="164" rx="8.5" ry="10"  fill="#0087C2"/>
+  <ellipse cx="144" cy="166" rx="8"   ry="9.5" fill="#0069AA"/>
+
+  <!-- ═══════════════════════════════════════
+       IICRC WORDMARK — right of globe
+       ═══════════════════════════════════════ -->
+  <text x="293" y="107"
+        font-family="'Arial Black', 'Arial', sans-serif"
+        font-weight="900"
+        font-size="54"
+        fill="#231f20"
+        text-anchor="middle"
+        letter-spacing="-1">IICRC</text>
+
+  <!-- Subtitle — two lines -->
+  <text x="282" y="125"
+        font-family="Arial, sans-serif"
+        font-size="11.5"
+        fill="#58595b"
+        text-anchor="middle">Institute of Inspection Cleaning</text>
+  <text x="282" y="140"
+        font-family="Arial, sans-serif"
+        font-size="11.5"
+        fill="#58595b"
+        text-anchor="middle">and Restoration Certification</text>
+
+  <!-- Thin divider line between top and text sections -->
+  <line x1="35" y1="183" x2="365" y2="183" stroke="#d1d3d4" stroke-width="1"/>
+
+  <!-- ═══════════════════════════════════════
+       CERTIFIED FIRM — teal, large
+       ═══════════════════════════════════════ -->
+  <text x="200" y="248"
+        font-family="'Arial Black', 'Arial', sans-serif"
+        font-weight="900"
+        font-size="56"
+        fill="#0099AC"
+        text-anchor="middle"
+        letter-spacing="0.5">CERTIFIED</text>
+
+  <text x="200" y="318"
+        font-family="'Arial Black', 'Arial', sans-serif"
+        font-weight="900"
+        font-size="64"
+        fill="#0099AC"
+        text-anchor="middle"
+        letter-spacing="1">FIRM</text>
+
+  <!-- ═══════════════════════════════════════
+       IICRC.ORG — bottom
+       ═══════════════════════════════════════ -->
+  <text x="200" y="362"
+        font-family="'Arial Black', 'Arial', sans-serif"
+        font-weight="900"
+        font-size="26"
+        fill="#231f20"
+        text-anchor="middle"
+        letter-spacing="2">IICRC.ORG</text>
+
+</svg>

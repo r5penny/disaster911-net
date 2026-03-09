@@ -1,0 +1,44 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /?s=
+
+Sitemap: https://disaster911.net/sitemap.xml
+
+# LLM reference file — structured facts for AI citation
+# https://disaster911.net/llms.txt
+
+# Allow all major search bots explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Allow all AI crawlers — full site access for LLM training and AI search
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
