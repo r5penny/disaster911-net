@@ -443,13 +443,13 @@
         <div class="quick-form-card" style="background:var(--bg-white); padding: 2rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); border-top: 5px solid var(--accent);">
           <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; align-items: center;">
             <div>
-              <h2 style="color: var(--primary); margin:0 0 0.5rem 0; font-size: 1.5rem;">Need Help Now?</h2>
-              <p style="color: var(--text-muted); margin:0; font-size: 0.95rem;">Fill this out and Ryan will call you in <span style="color:var(--primary); font-weight:700;">under 15 minutes.</span></p>
+              <h2 style="color: #111; margin:0 0 0.5rem 0; font-size: 1.5rem;">Need Help Now?</h2>
+              <p style="color: #444; margin:0; font-size: 0.95rem;">Fill this out and Ryan will call you in <span style="color:#c00; font-weight:700;">under 15 minutes.</span></p>
             </div>
             <form id="hero-quick-form" style="display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 1rem;">
-              <input type="text" name="name" placeholder="Your Name" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px;">
-              <input type="tel" name="phone" placeholder="Phone Number" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px;">
-              <select name="emergency_type" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; background: #fff;">
+              <input type="text" name="name" placeholder="Your Name" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; color: #111; background: #fff;">
+              <input type="tel" name="phone" placeholder="Phone Number" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; color: #111; background: #fff;">
+              <select name="emergency_type" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; background: #fff; color: #111;">
                 <option value="" disabled selected>Emergency Type</option>
                 <option value="water">Water Damage</option>
                 <option value="fire">Fire / Smoke</option>
@@ -881,50 +881,170 @@
         >
           We Bill These Carriers Directly — You Don't Fight the Paperwork
         </p>
+        <style>
+          .carrier-logo-link {
+            display: inline-block;
+            transition: transform 0.2s ease, filter 0.2s ease;
+            filter: drop-shadow(0 2px 6px rgba(0,0,0,0.35));
+          }
+          .carrier-logo-link:hover {
+            transform: scale(1.1) translateY(-2px);
+            filter: drop-shadow(0 6px 14px rgba(0,0,0,0.5)) brightness(1.1);
+          }
+        </style>
         <div
           style="
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 1.5rem;
+            gap: 1.25rem;
             flex-wrap: wrap;
           "
         >
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >State Farm</span
-          >
-          <span style="color: var(--text-muted); font-size: 0.8rem">•</span>
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >Allstate</span
-          >
-          <span style="color: var(--text-muted); font-size: 0.8rem">•</span>
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >Farmers</span
-          >
-          <span style="color: var(--text-muted); font-size: 0.8rem">•</span>
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >Liberty Mutual</span
-          >
-          <span style="color: var(--text-muted); font-size: 0.8rem">•</span>
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >USAA</span
-          >
-          <span style="color: var(--text-muted); font-size: 0.8rem">•</span>
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >Nationwide</span
-          >
-          <span style="color: var(--text-muted); font-size: 0.8rem">•</span>
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >Travelers</span
-          >
-          <span style="color: var(--text-muted); font-size: 0.8rem">•</span>
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >Progressive</span
-          >
-          <span style="color: var(--text-muted); font-size: 0.8rem">•</span>
-          <span style="font-weight: 800; font-size: 0.95rem; color: #fff"
-            >Auto-Owners</span
-          >
+          <!-- State Farm: red oval, white bold text, neighbor star -->
+          <a href="https://www.statefarm.com/claims" target="_blank" rel="noopener" class="carrier-logo-link" title="File a State Farm Claim">
+            <svg width="118" height="46" viewBox="0 0 118 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="sf-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#D90000"/><stop offset="100%" stop-color="#A30000"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="116" height="44" rx="22" fill="url(#sf-bg)"/>
+              <rect x="1" y="1" width="116" height="44" rx="22" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+              <polygon points="59,8 61.4,15.2 69,15.2 62.8,19.6 65.2,26.8 59,22.4 52.8,26.8 55.2,19.6 49,15.2 56.6,15.2" fill="rgba(255,255,255,0.18)"/>
+              <text x="59" y="38" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="10.5" fill="#fff" letter-spacing="0.8">STATE FARM</text>
+            </svg>
+          </a>
+
+          <!-- Allstate: navy, protective arc/hands shape, white text -->
+          <a href="https://www.allstate.com/claims" target="_blank" rel="noopener" class="carrier-logo-link" title="File an Allstate Claim">
+            <svg width="110" height="46" viewBox="0 0 110 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="al-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1B3A6B"/><stop offset="100%" stop-color="#0E2347"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="108" height="44" rx="8" fill="url(#al-bg)"/>
+              <rect x="1" y="1" width="108" height="44" rx="8" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+              <!-- stylized cupped hands arc -->
+              <path d="M28 30 Q28 18 38 16 Q44 15 46 22 Q48 15 54 15 Q62 15 62 22 Q64 15 68 16 Q78 18 78 30" stroke="rgba(255,255,255,0.55)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+              <path d="M26 30 Q37 38 55 38 Q73 38 84 30" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <text x="55" y="27" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="11" fill="#fff" letter-spacing="0.6">ALLSTATE</text>
+            </svg>
+          </a>
+
+          <!-- Farmers: forest green, wheat stalk, serif feel -->
+          <a href="https://www.farmers.com/claims/" target="_blank" rel="noopener" class="carrier-logo-link" title="File a Farmers Claim">
+            <svg width="108" height="46" viewBox="0 0 108 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="fa-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2D6A2D"/><stop offset="100%" stop-color="#1A4A1A"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="106" height="44" rx="8" fill="url(#fa-bg)"/>
+              <rect x="1" y="1" width="106" height="44" rx="8" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+              <!-- wheat stalks -->
+              <line x1="20" y1="34" x2="20" y2="14" stroke="rgba(255,220,100,0.7)" stroke-width="1.5" stroke-linecap="round"/>
+              <ellipse cx="20" cy="12" rx="3" ry="5" fill="rgba(255,220,100,0.7)" transform="rotate(-15 20 12)"/>
+              <line x1="26" y1="34" x2="26" y2="16" stroke="rgba(255,220,100,0.6)" stroke-width="1.5" stroke-linecap="round"/>
+              <ellipse cx="26" cy="14" rx="3" ry="5" fill="rgba(255,220,100,0.6)" transform="rotate(10 26 14)"/>
+              <text x="67" y="20" text-anchor="middle" font-family="'Georgia',serif" font-weight="700" font-size="12" fill="#fff" letter-spacing="0.4">FARMERS</text>
+              <text x="67" y="34" text-anchor="middle" font-family="'Georgia',serif" font-weight="400" font-size="9" fill="rgba(255,255,255,0.75)" letter-spacing="1.5">INSURANCE</text>
+            </svg>
+          </a>
+
+          <!-- Liberty Mutual: cobalt blue, torch flame icon -->
+          <a href="https://www.libertymutual.com/file-a-claim" target="_blank" rel="noopener" class="carrier-logo-link" title="File a Liberty Mutual Claim">
+            <svg width="130" height="46" viewBox="0 0 130 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="lm-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B3D91"/><stop offset="100%" stop-color="#06255C"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="128" height="44" rx="8" fill="url(#lm-bg)"/>
+              <rect x="1" y="1" width="128" height="44" rx="8" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+              <!-- torch + flame -->
+              <rect x="18" y="26" width="6" height="12" rx="2" fill="rgba(255,255,255,0.6)"/>
+              <path d="M21 26 Q17 20 19 13 Q21 8 24 11 Q26 7 28 11 Q31 8 29 15 Q31 20 27 26 Z" fill="rgba(255,165,0,0.85)"/>
+              <path d="M21 26 Q19 22 21 17 Q22 14 24 16 Q25 13 26 16 Q28 14 27 19 Q28 23 26 26 Z" fill="rgba(255,220,50,0.9)"/>
+              <text x="78" y="20" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="10" fill="#fff" letter-spacing="0.3">LIBERTY</text>
+              <text x="78" y="34" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="10" fill="#fff" letter-spacing="0.3">MUTUAL</text>
+            </svg>
+          </a>
+
+          <!-- USAA: military navy/gold, shield icon -->
+          <a href="https://www.usaa.com/inet/wc/insurance-claims" target="_blank" rel="noopener" class="carrier-logo-link" title="File a USAA Claim">
+            <svg width="90" height="46" viewBox="0 0 90 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="us-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#003087"/><stop offset="100%" stop-color="#001A5C"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="88" height="44" rx="8" fill="url(#us-bg)"/>
+              <rect x="1" y="1" width="88" height="44" rx="8" fill="none" stroke="rgba(197,160,55,0.5)" stroke-width="1.5"/>
+              <!-- shield -->
+              <path d="M16 10 L27 10 L27 26 Q21.5 32 16 26 Z" fill="rgba(197,160,55,0.8)"/>
+              <path d="M16 10 L27 10 L27 20 Q21.5 14 16 20 Z" fill="rgba(255,255,255,0.2)"/>
+              <line x1="21.5" y1="10" x2="21.5" y2="29" stroke="rgba(0,48,135,0.6)" stroke-width="1.5"/>
+              <text x="57" y="28" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="15" fill="#fff" letter-spacing="1">USAA</text>
+            </svg>
+          </a>
+
+          <!-- Nationwide: deep blue, eagle silhouette -->
+          <a href="https://www.nationwide.com/personal/insurance/claims/" target="_blank" rel="noopener" class="carrier-logo-link" title="File a Nationwide Claim">
+            <svg width="124" height="46" viewBox="0 0 124 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="nw-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1B5299"/><stop offset="100%" stop-color="#0D3366"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="122" height="44" rx="8" fill="url(#nw-bg)"/>
+              <rect x="1" y="1" width="122" height="44" rx="8" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+              <!-- eagle head silhouette -->
+              <path d="M14 34 Q14 20 22 16 Q28 13 30 18 Q33 12 38 17 Q40 14 42 20 Q44 16 46 22 Q46 34 36 34 Z" fill="rgba(255,255,255,0.22)"/>
+              <circle cx="30" cy="18" r="2" fill="rgba(255,255,255,0.5)"/>
+              <text x="82" y="28" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="9.5" fill="#fff" letter-spacing="0.4">NATIONWIDE</text>
+            </svg>
+          </a>
+
+          <!-- Travelers: red, iconic red umbrella -->
+          <a href="https://www.travelers.com/claims" target="_blank" rel="noopener" class="carrier-logo-link" title="File a Travelers Claim">
+            <svg width="112" height="46" viewBox="0 0 112 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="tr-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B00020"/><stop offset="100%" stop-color="#820018"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="110" height="44" rx="8" fill="url(#tr-bg)"/>
+              <rect x="1" y="1" width="110" height="44" rx="8" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+              <!-- umbrella canopy -->
+              <path d="M14 24 Q14 10 27 10 Q40 10 40 24 Z" fill="rgba(255,255,255,0.85)"/>
+              <path d="M14 24 Q14 17 27 17 Q40 17 40 24 Z" fill="rgba(255,255,255,0.3)"/>
+              <!-- umbrella handle -->
+              <path d="M27 24 L27 34 Q27 37 30 37 Q33 37 33 34" stroke="rgba(255,255,255,0.8)" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <text x="75" y="28" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="10" fill="#fff" letter-spacing="0.5">TRAVELERS</text>
+            </svg>
+          </a>
+
+          <!-- Progressive: cobalt blue, forward chevron/arrow -->
+          <a href="https://www.progressive.com/claims/" target="_blank" rel="noopener" class="carrier-logo-link" title="File a Progressive Claim">
+            <svg width="120" height="46" viewBox="0 0 120 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="pr-bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#003DA5"/><stop offset="100%" stop-color="#0050C8"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="118" height="44" rx="8" fill="url(#pr-bg)"/>
+              <!-- white chevron stripe -->
+              <path d="M0 0 L32 0 L48 23 L32 46 L0 46 Z" fill="rgba(255,255,255,0.1)" clip-path="inset(0 0 0 0 round 8px)"/>
+              <rect x="1" y="1" width="118" height="44" rx="8" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+              <!-- chevron arrow -->
+              <polyline points="16,13 30,23 16,33" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+              <text x="73" y="28" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="11" fill="#fff" letter-spacing="0.5">PROGRESSIVE</text>
+            </svg>
+          </a>
+
+          <!-- Auto-Owners: teal/green, oak tree / leaf icon -->
+          <a href="https://www.auto-owners.com/claims" target="_blank" rel="noopener" class="carrier-logo-link" title="File an Auto-Owners Claim">
+            <svg width="122" height="46" viewBox="0 0 122 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="ao-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#005A50"/><stop offset="100%" stop-color="#003A34"/></linearGradient>
+              </defs>
+              <rect x="1" y="1" width="120" height="44" rx="8" fill="url(#ao-bg)"/>
+              <rect x="1" y="1" width="120" height="44" rx="8" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+              <!-- stylized oak tree -->
+              <circle cx="22" cy="18" r="9" fill="rgba(255,255,255,0.22)"/>
+              <circle cx="16" cy="22" r="7" fill="rgba(255,255,255,0.18)"/>
+              <circle cx="28" cy="22" r="7" fill="rgba(255,255,255,0.18)"/>
+              <rect x="20" y="28" width="4" height="10" rx="2" fill="rgba(255,255,255,0.35)"/>
+              <text x="73" y="20" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="9.5" fill="#fff" letter-spacing="0.3">AUTO-OWNERS</text>
+              <text x="73" y="34" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-weight="400" font-size="8.5" fill="rgba(255,255,255,0.75)" letter-spacing="1.2">INSURANCE</text>
+            </svg>
+          </a>
         </div>
       </div>
     </section>
