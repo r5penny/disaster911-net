@@ -1,0 +1,467 @@
+{
+  "type": "citation-audit",
+  "timestamp": "2026-03-10T03:32:47.931Z",
+  "business": "Disaster Response by Ryan",
+  "summary": {
+    "total": 16,
+    "correct": 1,
+    "partial": 3,
+    "missing": 12,
+    "unreachable": 0,
+    "errors": 0,
+    "overallScore": "6%",
+    "highPriorityIssues": 8
+  },
+  "results": [
+    {
+      "name": "Google Business Profile",
+      "checkUrl": "https://www.google.com/maps?cid=14615414471722616873",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:23.431Z",
+      "reachable": true,
+      "httpStatus": 200,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Yelp",
+      "checkUrl": "https://www.yelp.com/search?find_desc=Disaster+Response+by+Ryan&find_loc=Walker%2C+MI",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:24.909Z",
+      "reachable": true,
+      "httpStatus": 403,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Angi (formerly Angie's List)",
+      "checkUrl": "https://www.angi.com/companylist/us/mi/walker/disaster-response-by-ryan-reviews-",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:26.251Z",
+      "reachable": true,
+      "httpStatus": 403,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "HomeAdvisor",
+      "checkUrl": "https://www.homeadvisor.com/rated.DisasterResponsebyRyan.html",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:27.589Z",
+      "reachable": true,
+      "httpStatus": 403,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "BBB (Better Business Bureau)",
+      "checkUrl": "https://www.bbb.org/search?find_country=USA&find_entity=10042&find_id=20&find_loc=Walker%2C+MI&find_text=Disaster+Response+by+Ryan&find_type=Name&page=1&touched=1",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:28.924Z",
+      "reachable": true,
+      "httpStatus": 200,
+      "nap": {
+        "name": {
+          "found": true,
+          "matchedPattern": "Disaster Response by Ryan"
+        },
+        "phone": {
+          "found": true,
+          "matchedPattern": "(616) 822-1978"
+        },
+        "address": {
+          "found": true,
+          "matchedPattern": "3707 Northridge"
+        }
+      },
+      "napScore": 3,
+      "status": "correct",
+      "error": null
+    },
+    {
+      "name": "Facebook Business",
+      "checkUrl": "https://www.facebook.com/search/pages/?q=Disaster+Response+by+Ryan+Walker+MI",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:30.764Z",
+      "reachable": true,
+      "httpStatus": 400,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Bing Places",
+      "checkUrl": "https://www.bing.com/maps?q=Disaster+Response+by+Ryan+Walker+MI",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:32.124Z",
+      "reachable": true,
+      "httpStatus": 200,
+      "nap": {
+        "name": {
+          "found": true,
+          "matchedPattern": "Disaster Response by Ryan"
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 1,
+      "status": "partial",
+      "error": null
+    },
+    {
+      "name": "Apple Maps",
+      "checkUrl": "https://maps.apple.com/?q=Disaster+Response+by+Ryan+Walker+MI",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:33.530Z",
+      "reachable": true,
+      "httpStatus": 200,
+      "nap": {
+        "name": {
+          "found": true,
+          "matchedPattern": "Disaster Response by Ryan"
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 1,
+      "status": "partial",
+      "error": null
+    },
+    {
+      "name": "IICRC Certified Firm Directory",
+      "checkUrl": "https://www.iicrc.org/page/FindaCertifiedFirmCompany",
+      "priority": "high",
+      "timestamp": "2026-03-10T03:32:35.038Z",
+      "reachable": true,
+      "httpStatus": 404,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Yellow Pages",
+      "checkUrl": "https://www.yellowpages.com/walker-mi/mip/disaster-response-by-ryan",
+      "priority": "medium",
+      "timestamp": "2026-03-10T03:32:36.556Z",
+      "reachable": true,
+      "httpStatus": 403,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Houzz",
+      "checkUrl": "https://www.houzz.com/professionals/search?location=Walker%2C+MI&query=Disaster+Response+by+Ryan",
+      "priority": "medium",
+      "timestamp": "2026-03-10T03:32:37.887Z",
+      "reachable": true,
+      "httpStatus": 404,
+      "nap": {
+        "name": {
+          "found": true,
+          "matchedPattern": "Disaster Response by Ryan"
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 1,
+      "status": "partial",
+      "error": null
+    },
+    {
+      "name": "Thumbtack",
+      "checkUrl": "https://www.thumbtack.com/mi/walker/water-damage-restoration/",
+      "priority": "medium",
+      "timestamp": "2026-03-10T03:32:40.084Z",
+      "reachable": true,
+      "httpStatus": 404,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Nextdoor Business",
+      "checkUrl": "https://nextdoor.com/pages/disaster-response-by-ryan-walker-mi/",
+      "priority": "medium",
+      "timestamp": "2026-03-10T03:32:42.010Z",
+      "reachable": true,
+      "httpStatus": 404,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Manta",
+      "checkUrl": "https://www.manta.com/mb_46_A424C0A9_M/disaster_response_by_ryan",
+      "priority": "medium",
+      "timestamp": "2026-03-10T03:32:43.524Z",
+      "reachable": true,
+      "httpStatus": 403,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Foursquare",
+      "checkUrl": "https://foursquare.com/v/disaster-response-by-ryan/",
+      "priority": "low",
+      "timestamp": "2026-03-10T03:32:44.872Z",
+      "reachable": true,
+      "httpStatus": 404,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    },
+    {
+      "name": "Citysearch",
+      "checkUrl": "http://www.citysearch.com/search?q=disaster+response+by+ryan&where=Walker%2C+MI",
+      "priority": "low",
+      "timestamp": "2026-03-10T03:32:46.386Z",
+      "reachable": true,
+      "httpStatus": 200,
+      "nap": {
+        "name": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "phone": {
+          "found": false,
+          "matchedPattern": null
+        },
+        "address": {
+          "found": false,
+          "matchedPattern": null
+        }
+      },
+      "napScore": 0,
+      "status": "missing",
+      "error": null
+    }
+  ],
+  "actionItems": [
+    {
+      "directory": "Google Business Profile",
+      "status": "missing",
+      "checkUrl": "https://www.google.com/maps?cid=14615414471722616873",
+      "action": "Create or claim listing and ensure NAP matches exactly"
+    },
+    {
+      "directory": "Yelp",
+      "status": "missing",
+      "checkUrl": "https://www.yelp.com/search?find_desc=Disaster+Response+by+Ryan&find_loc=Walker%2C+MI",
+      "action": "Create or claim listing and ensure NAP matches exactly"
+    },
+    {
+      "directory": "Angi (formerly Angie's List)",
+      "status": "missing",
+      "checkUrl": "https://www.angi.com/companylist/us/mi/walker/disaster-response-by-ryan-reviews-",
+      "action": "Create or claim listing and ensure NAP matches exactly"
+    },
+    {
+      "directory": "HomeAdvisor",
+      "status": "missing",
+      "checkUrl": "https://www.homeadvisor.com/rated.DisasterResponsebyRyan.html",
+      "action": "Create or claim listing and ensure NAP matches exactly"
+    },
+    {
+      "directory": "Facebook Business",
+      "status": "missing",
+      "checkUrl": "https://www.facebook.com/search/pages/?q=Disaster+Response+by+Ryan+Walker+MI",
+      "action": "Create or claim listing and ensure NAP matches exactly"
+    },
+    {
+      "directory": "Bing Places",
+      "status": "partial",
+      "checkUrl": "https://www.bing.com/maps?q=Disaster+Response+by+Ryan+Walker+MI",
+      "action": "Update listing to ensure all 3 NAP fields match exactly"
+    },
+    {
+      "directory": "Apple Maps",
+      "status": "partial",
+      "checkUrl": "https://maps.apple.com/?q=Disaster+Response+by+Ryan+Walker+MI",
+      "action": "Update listing to ensure all 3 NAP fields match exactly"
+    },
+    {
+      "directory": "IICRC Certified Firm Directory",
+      "status": "missing",
+      "checkUrl": "https://www.iicrc.org/page/FindaCertifiedFirmCompany",
+      "action": "Create or claim listing and ensure NAP matches exactly"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "type": "seo-audit",
+  "timestamp": "2026-03-10T03:32:47.936Z",
+  "business": "Disaster Response by Ryan",
+  "website": "https://disaster911.net",
+  "sitemap": {
+    "sitemapUrl": "https://disaster911.net/sitemap.xml",
+    "accessible": true,
+    "totalUrls": 226,
+    "sampledUrls": [
+      {
+        "url": "https://disaster911.net/blog/how-much-does-water-damage-restoration-cost-in-michigan/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/fire-damage-restoration/east-grand-rapids-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/water-damage-restoration/wright-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/fire-damage-restoration/kentwood-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/water-damage-restoration/moorland-mi/",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "allSamples200": true,
+    "error": null
+  },
+  "pages": [
+    {
+      "label": "Homepage",
+      "url": "http://localhost:8080/",
+      "pageSpeed": {
+        "url": "http://localhost:8080/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "http://localhost:8080/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "http://localhost:8080/",
+        "schemasFound": [
+          "Organization",
+          "WebSite",
+          "LocalBusiness, HomeAndConstructionBusiness",
+          "ImageGallery",
+          "Person"
+        ],
+        "expectedPresent": [
+          "LocalBusiness",
+          "Organization"
+        ],
+        "expectedMissing": [],
+        "optionalPresent": [],
+        "parseErrors": [],
+        "valid": true,
+        "error": null
+      }
+    },
+    {
+      "label": "Water Damage (GR)",
+      "url": "http://localhost:8080/water-damage-restoration/grand-rapids-mi/",
+      "pageSpeed": {
+        "url": "http://localhost:8080/water-damage-restoration/grand-rapids-mi/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "http://localhost:8080/water-damage-restoration/grand-rapids-mi/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "http://localhost:8080/water-damage-restoration/grand-rapids-mi/",
+        "schemasFound": [
+          "WebSite",
+          "Organization",
+          "LocalBusiness, HomeAndConstructionBusiness",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "expectedPresent": [
+          "LocalBusiness",
+          "Organization"
+        ],
+        "expectedMissing": [],
+        "optionalPresent": [
+          "FAQPage",
+          "BreadcrumbList"
+        ],
+        "parseErrors": [],
+        "valid": true,
+        "error": null
+      }
+    },
+    {
+      "label": "Water Damage (Kentwd)",
+      "url": "http://localhost:8080/water-damage-restoration/kentwood-mi/",
+      "pageSpeed": {
+        "url": "http://localhost:8080/water-damage-restoration/kentwood-mi/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "http://localhost:8080/water-damage-restoration/kentwood-mi/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "http://localhost:8080/water-damage-restoration/kentwood-mi/",
+        "schemasFound": [
+          "WebSite",
+          "Organization",
+          "LocalBusiness, HomeAndConstructionBusiness",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "expectedPresent": [
+          "LocalBusiness",
+          "Organization"
+        ],
+        "expectedMissing": [],
+        "optionalPresent": [
+          "FAQPage",
+          "BreadcrumbList"
+        ],
+        "parseErrors": [],
+        "valid": true,
+        "error": null
+      }
+    },
+    {
+      "label": "Water Damage (Wyomng)",
+      "url": "http://localhost:8080/water-damage-restoration/wyoming-mi/",
+      "pageSpeed": {
+        "url": "http://localhost:8080/water-damage-restoration/wyoming-mi/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "http://localhost:8080/water-damage-restoration/wyoming-mi/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "http://localhost:8080/water-damage-restoration/wyoming-mi/",
+        "schemasFound": [
+          "WebSite",
+          "Organization",
+          "LocalBusiness, HomeAndConstructionBusiness",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "expectedPresent": [
+          "LocalBusiness",
+          "Organization"
+        ],
+        "expectedMissing": [],
+        "optionalPresent": [
+          "FAQPage",
+          "BreadcrumbList"
+        ],
+        "parseErrors": [],
+        "valid": true,
+        "error": null
+      }
+    }
+  ],
+  "summary": {
+    "totalPagesAudited": 4,
+    "avgMobilePerformance": null,
+    "sitemapHealthy": true,
+    "totalSitemapUrls": 226,
+    "pagesWithValidSchema": 4,
+    "issuesFound": []
+  }
+}
