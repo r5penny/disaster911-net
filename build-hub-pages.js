@@ -345,6 +345,17 @@ function head({ title, desc, canonical, faqSchema, svcLabel }) {
     [
     {
         "@context":"https://schema.org",
+        "@type":"WebSite",
+        "name":"Disaster Response by Ryan",
+        "url":"https://disaster911.net",
+        "potentialAction":{
+            "@type":"SearchAction",
+            "target":"https://disaster911.net/search?q={search_term_string}",
+            "query-input":"required name=search_term_string"
+        }
+    },
+    {
+        "@context":"https://schema.org",
         "@type":"Organization",
         "@id":"https://disaster911.net/#organization",
         "name":"Disaster Response by Ryan",

@@ -1,0 +1,427 @@
+{
+  "type": "backlink-audit",
+  "timestamp": "2026-03-10T03:27:06.395Z",
+  "business": "Disaster Response by Ryan",
+  "summary": {
+    "totalDirectories": 16,
+    "listed": 1,
+    "notListed": 8,
+    "unchecked": 7,
+    "highPriorityMissing": 8
+  },
+  "results": [
+    {
+      "name": "Google Business Profile",
+      "url": "https://business.google.com",
+      "checkUrl": "https://www.google.com/maps?cid=14615414471722616873",
+      "submitUrl": "https://business.google.com/create",
+      "priority": "high",
+      "listed": false,
+      "signalsFound": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "name": "Yelp",
+      "url": "https://www.yelp.com",
+      "checkUrl": "https://www.yelp.com/search?find_desc=Disaster+Response+by+Ryan&find_loc=Walker%2C+MI",
+      "submitUrl": "https://biz.yelp.com/claim",
+      "priority": "high",
+      "listed": false,
+      "signalsFound": [],
+      "reachable": true,
+      "httpStatus": 403,
+      "error": null
+    },
+    {
+      "name": "Angi (formerly Angie's List)",
+      "url": "https://www.angi.com",
+      "checkUrl": "https://www.angi.com/companylist/us/mi/walker/disaster-response-by-ryan-reviews-",
+      "submitUrl": "https://pro.angi.com/",
+      "priority": "high",
+      "listed": false,
+      "signalsFound": [],
+      "reachable": true,
+      "httpStatus": 403,
+      "error": null
+    },
+    {
+      "name": "HomeAdvisor",
+      "url": "https://www.homeadvisor.com",
+      "checkUrl": "https://www.homeadvisor.com/rated.DisasterResponsebyRyan.html",
+      "submitUrl": "https://pro.homeadvisor.com/",
+      "priority": "high",
+      "listed": false,
+      "signalsFound": [],
+      "reachable": true,
+      "httpStatus": 403,
+      "error": null
+    },
+    {
+      "name": "BBB (Better Business Bureau)",
+      "url": "https://www.bbb.org",
+      "checkUrl": "https://www.bbb.org/search?find_country=USA&find_entity=10042&find_id=20&find_loc=Walker%2C+MI&find_text=Disaster+Response+by+Ryan&find_type=Name&page=1&touched=1",
+      "submitUrl": "https://www.bbb.org/business-profile-application",
+      "priority": "high",
+      "listed": true,
+      "signalsFound": [
+        "(616) 822-1978",
+        "3707 Northridge",
+        "Disaster Response by Ryan"
+      ],
+      "reachable": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "name": "Facebook Business",
+      "url": "https://www.facebook.com",
+      "checkUrl": "https://www.facebook.com/search/pages/?q=Disaster+Response+by+Ryan+Walker+MI",
+      "submitUrl": "https://www.facebook.com/pages/create",
+      "priority": "high",
+      "listed": false,
+      "signalsFound": [],
+      "reachable": true,
+      "httpStatus": 400,
+      "error": null
+    },
+    {
+      "name": "Bing Places",
+      "url": "https://www.bingplaces.com",
+      "checkUrl": "https://www.bing.com/maps?q=Disaster+Response+by+Ryan+Walker+MI",
+      "submitUrl": "https://www.bingplaces.com/",
+      "priority": "high",
+      "listed": false,
+      "signalsFound": [
+        "Disaster Response by Ryan"
+      ],
+      "reachable": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "name": "Apple Maps",
+      "url": "https://maps.apple.com",
+      "checkUrl": "https://maps.apple.com/?q=Disaster+Response+by+Ryan+Walker+MI",
+      "submitUrl": "https://mapsconnect.apple.com/",
+      "priority": "high",
+      "listed": false,
+      "signalsFound": [
+        "Disaster Response by Ryan"
+      ],
+      "reachable": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "name": "IICRC Certified Firm Directory",
+      "url": "https://www.iicrc.org",
+      "checkUrl": "https://www.iicrc.org/page/FindaCertifiedFirmCompany",
+      "submitUrl": "https://www.iicrc.org/page/ApplyforCertification",
+      "priority": "high",
+      "listed": false,
+      "signalsFound": [],
+      "reachable": true,
+      "httpStatus": 404,
+      "error": null
+    },
+    {
+      "name": "Yellow Pages",
+      "url": "https://www.yellowpages.com",
+      "submitUrl": "https://www.yellowpages.com/free-listing",
+      "priority": "medium",
+      "listed": false,
+      "checked": false,
+      "note": "Not checked (medium/low priority — run citation audit for full check)"
+    },
+    {
+      "name": "Houzz",
+      "url": "https://www.houzz.com",
+      "submitUrl": "https://www.houzz.com/for-professionals/overview",
+      "priority": "medium",
+      "listed": false,
+      "checked": false,
+      "note": "Not checked (medium/low priority — run citation audit for full check)"
+    },
+    {
+      "name": "Thumbtack",
+      "url": "https://www.thumbtack.com",
+      "submitUrl": "https://www.thumbtack.com/pro/",
+      "priority": "medium",
+      "listed": false,
+      "checked": false,
+      "note": "Not checked (medium/low priority — run citation audit for full check)"
+    },
+    {
+      "name": "Nextdoor Business",
+      "url": "https://nextdoor.com",
+      "submitUrl": "https://business.nextdoor.com/",
+      "priority": "medium",
+      "listed": false,
+      "checked": false,
+      "note": "Not checked (medium/low priority — run citation audit for full check)"
+    },
+    {
+      "name": "Manta",
+      "url": "https://www.manta.com",
+      "submitUrl": "https://www.manta.com/claim",
+      "priority": "medium",
+      "listed": false,
+      "checked": false,
+      "note": "Not checked (medium/low priority — run citation audit for full check)"
+    },
+    {
+      "name": "Foursquare",
+      "url": "https://foursquare.com",
+      "submitUrl": "https://business.foursquare.com/",
+      "priority": "low",
+      "listed": false,
+      "checked": false,
+      "note": "Not checked (medium/low priority — run citation audit for full check)"
+    },
+    {
+      "name": "Citysearch",
+      "url": "http://www.citysearch.com",
+      "submitUrl": "http://www.citysearch.com/",
+      "priority": "low",
+      "listed": false,
+      "checked": false,
+      "note": "Not checked (medium/low priority — run citation audit for full check)"
+    }
+  ],
+  "outreachPriorityList": [
+    {
+      "name": "Yellow Pages",
+      "priority": "medium",
+      "submitUrl": "https://www.yellowpages.com/free-listing",
+      "tips": {
+        "steps": [
+          "1. Go to https://www.yellowpages.com/free-listing",
+          "2. Search for existing listing first",
+          "3. Create or claim your listing",
+          "4. Add description, photos, and services"
+        ],
+        "timeEstimate": "20 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Houzz",
+      "priority": "medium",
+      "submitUrl": "https://www.houzz.com/for-professionals/overview",
+      "tips": {
+        "steps": [
+          "1. Go to https://www.houzz.com/for-professionals/overview",
+          "2. Create a Pro account",
+          "3. Choose \"Water Damage Restoration\" category",
+          "4. Add project photos and business description"
+        ],
+        "timeEstimate": "40 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Thumbtack",
+      "priority": "medium",
+      "submitUrl": "https://www.thumbtack.com/pro/",
+      "tips": {
+        "steps": [
+          "1. Go to https://www.thumbtack.com/pro",
+          "2. Create a business profile",
+          "3. Select your services and service area",
+          "4. Set your budget — you pay to respond to leads"
+        ],
+        "timeEstimate": "30 minutes",
+        "freeToList": true,
+        "paid": "Pay to respond to leads"
+      }
+    },
+    {
+      "name": "Nextdoor Business",
+      "priority": "medium",
+      "submitUrl": "https://business.nextdoor.com/",
+      "tips": {
+        "steps": [
+          "1. Go to https://business.nextdoor.com",
+          "2. Create a free Business Page",
+          "3. Verify your business address",
+          "4. Post to neighborhoods in your service area"
+        ],
+        "timeEstimate": "20 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Manta",
+      "priority": "medium",
+      "submitUrl": "https://www.manta.com/claim",
+      "tips": {
+        "steps": [
+          "1. Go to https://www.manta.com/claim",
+          "2. Search for existing listing",
+          "3. Claim or create listing",
+          "4. Complete all profile fields"
+        ],
+        "timeEstimate": "15 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Google Business Profile",
+      "priority": "high",
+      "submitUrl": "https://business.google.com/create",
+      "tips": {
+        "steps": [
+          "1. Go to https://business.google.com",
+          "2. Sign in with your Google account",
+          "3. Click \"Manage now\" and search for your business",
+          "4. If not found, click \"Add your business to Google\"",
+          "5. Complete all sections: hours, services, photos, description"
+        ],
+        "timeEstimate": "20 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Yelp",
+      "priority": "high",
+      "submitUrl": "https://biz.yelp.com/claim",
+      "tips": {
+        "steps": [
+          "1. Go to https://biz.yelp.com/claim",
+          "2. Search for your business name and phone",
+          "3. If not found, click \"Add your business\"",
+          "4. Verify ownership via phone call or postcard",
+          "5. Complete profile with photos and service description"
+        ],
+        "timeEstimate": "30 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Angi (formerly Angie's List)",
+      "priority": "high",
+      "submitUrl": "https://pro.angi.com/",
+      "tips": {
+        "steps": [
+          "1. Go to https://pro.angi.com",
+          "2. Sign up as a pro service provider",
+          "3. Select \"Water/Fire/Mold Restoration\" categories",
+          "4. Set your service area to Grand Rapids metro",
+          "5. Upload license, insurance, and IICRC certification"
+        ],
+        "timeEstimate": "45 minutes",
+        "freeToList": false,
+        "paid": "Subscription + pay-per-lead model"
+      }
+    },
+    {
+      "name": "HomeAdvisor",
+      "priority": "high",
+      "submitUrl": "https://pro.homeadvisor.com/",
+      "tips": {
+        "steps": [
+          "1. Go to https://pro.homeadvisor.com",
+          "2. Register as a service professional",
+          "3. Verify credentials and insurance",
+          "4. Set budget for lead generation"
+        ],
+        "timeEstimate": "30 minutes",
+        "freeToList": false,
+        "paid": "Pay-per-lead model; background check required"
+      }
+    },
+    {
+      "name": "Facebook Business",
+      "priority": "high",
+      "submitUrl": "https://www.facebook.com/pages/create",
+      "tips": {
+        "steps": [
+          "1. Go to https://www.facebook.com/pages/create",
+          "2. Choose \"Local Business or Place\"",
+          "3. Select category: \"Restoration Service\"",
+          "4. Complete all business info fields",
+          "5. Add photos, cover image, and services"
+        ],
+        "timeEstimate": "30 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Bing Places",
+      "priority": "high",
+      "submitUrl": "https://www.bingplaces.com/",
+      "tips": {
+        "steps": [
+          "1. Go to https://www.bingplaces.com",
+          "2. Click \"Get started\" and sign in with Microsoft account",
+          "3. Import from Google Business Profile (fastest option) OR create new",
+          "4. Verify via phone or postcard"
+        ],
+        "timeEstimate": "15 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Apple Maps",
+      "priority": "high",
+      "submitUrl": "https://mapsconnect.apple.com/",
+      "tips": {
+        "steps": [
+          "1. Go to https://mapsconnect.apple.com",
+          "2. Sign in with Apple ID",
+          "3. Click \"+\" to add a new place",
+          "4. Fill in business details and submit for review",
+          "5. Apple reviews take 3–5 business days"
+        ],
+        "timeEstimate": "20 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "IICRC Certified Firm Directory",
+      "priority": "high",
+      "submitUrl": "https://www.iicrc.org/page/ApplyforCertification",
+      "tips": {
+        "steps": [
+          "1. Go to https://www.iicrc.org/page/FindaCertifiedFirmCompany",
+          "2. Verify your firm certification is current",
+          "3. Contact IICRC at custserv@iicrc.org to ensure listing is active",
+          "4. Renew certification annually to stay listed"
+        ],
+        "timeEstimate": "15 minutes",
+        "freeToList": true,
+        "requirement": "Must maintain active IICRC Certified Firm status"
+      }
+    },
+    {
+      "name": "Foursquare",
+      "priority": "low",
+      "submitUrl": "https://business.foursquare.com/",
+      "tips": {
+        "steps": [
+          "1. Go to https://business.foursquare.com",
+          "2. Add or claim your business",
+          "3. Verify via phone or email"
+        ],
+        "timeEstimate": "15 minutes",
+        "freeToList": true
+      }
+    },
+    {
+      "name": "Citysearch",
+      "priority": "low",
+      "submitUrl": "http://www.citysearch.com/",
+      "tips": {
+        "steps": [
+          "1. Visit http://www.citysearch.com",
+          "2. Search for your business",
+          "3. Add or update your listing"
+        ],
+        "timeEstimate": "10 minutes",
+        "freeToList": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "type": "seo-audit",
+  "timestamp": "2026-03-10T03:26:40.578Z",
+  "business": "Disaster Response by Ryan",
+  "website": "https://disaster911.net",
+  "sitemap": {
+    "sitemapUrl": "https://disaster911.net/sitemap.xml",
+    "accessible": true,
+    "totalUrls": 226,
+    "sampledUrls": [
+      {
+        "url": "https://disaster911.net/water-damage-restoration/cascade-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/mold-remediation/alpine-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/water-damage-restoration/spring-lake-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/water-damage-restoration/east-grand-rapids-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/water-damage-restoration/lowell-mi/",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "allSamples200": true,
+    "error": null
+  },
+  "pages": [
+    {
+      "label": "Homepage",
+      "url": "https://disaster911.net/",
+      "pageSpeed": {
+        "url": "https://disaster911.net/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "https://disaster911.net/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "https://disaster911.net/",
+        "schemasFound": [
+          "ImageGallery",
+          "LocalBusiness"
+        ],
+        "expectedPresent": [
+          "LocalBusiness"
+        ],
+        "expectedMissing": [
+          "Organization"
+        ],
+        "optionalPresent": [],
+        "parseErrors": [],
+        "valid": false,
+        "error": null
+      }
+    },
+    {
+      "label": "Water Damage (GR)",
+      "url": "https://disaster911.net/water-damage-restoration/grand-rapids-mi/",
+      "pageSpeed": {
+        "url": "https://disaster911.net/water-damage-restoration/grand-rapids-mi/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "https://disaster911.net/water-damage-restoration/grand-rapids-mi/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "https://disaster911.net/water-damage-restoration/grand-rapids-mi/",
+        "schemasFound": [
+          "LocalBusiness",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "expectedPresent": [
+          "LocalBusiness"
+        ],
+        "expectedMissing": [
+          "Organization"
+        ],
+        "optionalPresent": [
+          "FAQPage",
+          "BreadcrumbList"
+        ],
+        "parseErrors": [],
+        "valid": false,
+        "error": null
+      }
+    },
+    {
+      "label": "Water Damage (Kentwd)",
+      "url": "https://disaster911.net/water-damage-restoration/kentwood-mi/",
+      "pageSpeed": {
+        "url": "https://disaster911.net/water-damage-restoration/kentwood-mi/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "https://disaster911.net/water-damage-restoration/kentwood-mi/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "https://disaster911.net/water-damage-restoration/kentwood-mi/",
+        "schemasFound": [
+          "LocalBusiness",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "expectedPresent": [
+          "LocalBusiness"
+        ],
+        "expectedMissing": [
+          "Organization"
+        ],
+        "optionalPresent": [
+          "FAQPage",
+          "BreadcrumbList"
+        ],
+        "parseErrors": [],
+        "valid": false,
+        "error": null
+      }
+    },
+    {
+      "label": "Water Damage (Wyomng)",
+      "url": "https://disaster911.net/water-damage-restoration/wyoming-mi/",
+      "pageSpeed": {
+        "url": "https://disaster911.net/water-damage-restoration/wyoming-mi/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "https://disaster911.net/water-damage-restoration/wyoming-mi/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "https://disaster911.net/water-damage-restoration/wyoming-mi/",
+        "schemasFound": [
+          "LocalBusiness",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "expectedPresent": [
+          "LocalBusiness"
+        ],
+        "expectedMissing": [
+          "Organization"
+        ],
+        "optionalPresent": [
+          "FAQPage",
+          "BreadcrumbList"
+        ],
+        "parseErrors": [],
+        "valid": false,
+        "error": null
+      }
+    }
+  ],
+  "summary": {
+    "totalPagesAudited": 4,
+    "avgMobilePerformance": null,
+    "sitemapHealthy": true,
+    "totalSitemapUrls": 226,
+    "pagesWithValidSchema": 0,
+    "issuesFound": [
+      "Homepage: missing schema types",
+      "Water Damage (GR): missing schema types",
+      "Water Damage (Kentwd): missing schema types",
+      "Water Damage (Wyomng): missing schema types"
+    ]
+  }
+}

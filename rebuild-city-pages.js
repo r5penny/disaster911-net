@@ -754,7 +754,19 @@ function buildPage(svcSlug, cityIdx) {
     <script src="https://link.msgsndr.com/js/traffic-source.js"></script>
 
     <script type="application/ld+json">
-    [{
+    [
+    {
+      "@context":"https://schema.org",
+      "@type":"WebSite",
+      "name":"Disaster Response by Ryan",
+      "url":"https://disaster911.net",
+      "potentialAction":{
+        "@type":"SearchAction",
+        "target":"https://disaster911.net/search?q={search_term_string}",
+        "query-input":"required name=search_term_string"
+      }
+    },
+    {
       "@context":"https://schema.org",
       "@type":"Organization",
       "@id":"https://disaster911.net/#organization",
@@ -776,7 +788,8 @@ function buildPage(svcSlug, cityIdx) {
       "sameAs":[
         "https://www.facebook.com/disaster911net"
       ]
-    },{
+    },
+    {
       "@context":"https://schema.org",
       "@type":["LocalBusiness","HomeAndConstructionBusiness"],
       "name":"Disaster Response by Ryan",
@@ -789,7 +802,8 @@ function buildPage(svcSlug, cityIdx) {
       "areaServed":"${name}, MI",
       "image":"https://disaster911.net/images/moisture-meter-999-water-damage-wall-inspection-grand-rapids.jpg",
       "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"150","bestRating":"5"}
-    },{
+    },
+    {
       "@context":"https://schema.org",
       "@type":"BreadcrumbList",
       "itemListElement":[
@@ -797,7 +811,8 @@ function buildPage(svcSlug, cityIdx) {
         {"@type":"ListItem","position":2,"name":"${svc.label}","item":"https://disaster911.net${svc.hub}"},
         {"@type":"ListItem","position":3,"name":"${h1}","item":"${canonical}"}
       ]
-    },{
+    },
+    {
       "@context":"https://schema.org",
       "@type":"FAQPage",
       "mainEntity":${JSON.stringify(CITY_FAQ_SCHEMA[svcSlug].map(f=>({'@type':'Question','name':f.q,'acceptedAnswer':{'@type':'Answer','text':f.a}})))}
