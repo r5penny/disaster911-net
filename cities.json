@@ -1,0 +1,461 @@
+[
+  {
+    "id": "grand-rapids-mi",
+    "name": "Grand Rapids",
+    "min": 10,
+    "risk": "Grand River flooding, Heritage Hill aging plumbing, clay soil, combined sewer overflow",
+    "hook": "Grand Rapids is Ryan's primary market. Heritage Hill historic homes have century-old cast iron pipes prone to failure. The Grand River creates flood risk downtown and in the East Hills neighborhood. Clay soil across the city causes hydrostatic pressure against foundations year-round.",
+    "lat": 42.9634,
+    "lng": -85.6681
+  },
+  {
+    "id": "walker-mi",
+    "name": "Walker",
+    "min": 5,
+    "risk": "Alpine Ave corridor flooding, clay soil basement seepage, aging infrastructure",
+    "hook": "Walker is Ryan's home base  our shop is 5 minutes from your door at 3707 Northridge Dr NW. Alpine Ave NW commercial corridor sees regular commercial water damage. Clay soil in Walker's 1970s-80s subdivisions creates chronic basement seepage.",
+    "lat": 43.0011,
+    "lng": -85.7335
+  },
+  {
+    "id": "kentwood-mi",
+    "name": "Kentwood",
+    "min": 15,
+    "risk": "Plaster Creek flooding, 1970s-80s housing stock failures, clay soil",
+    "hook": "Kentwood's dense 1970s-80s housing on clay soil is a water damage hotspot. The Plaster Creek watershed runs through the city, and neighborhoods near 52nd Street see routine basement flooding. Block foundations allow moisture infiltration.",
+    "lat": 42.8706,
+    "lng": -85.5539
+  },
+  {
+    "id": "wyoming-mi",
+    "name": "Wyoming",
+    "min": 12,
+    "risk": "Flat terrain poor drainage, aging post-war housing, 28th Street commercial flooding",
+    "hook": "Wyoming is West Michigan's 2nd-largest city and one of our highest-volume markets. Flat clay-soil topography means water has nowhere to drain. Post-war housing stock from the 1950s-70s has plumbing that is past expected lifespan.",
+    "lat": 42.9134,
+    "lng": -85.7053
+  },
+  {
+    "id": "rockford-mi",
+    "name": "Rockford",
+    "min": 20,
+    "risk": "Rogue River floodplain, freeze-thaw pipe failures, older downtown plumbing",
+    "hook": "The Rogue River runs directly through downtown Rockford in a documented floodplain. Historic downtown properties along Main Street flood nearly every spring. Freeze-thaw cycles crack older plumbing in the charming residential stock near the river.",
+    "lat": 43.1203,
+    "lng": -85.5595
+  },
+  {
+    "id": "holland-mi",
+    "name": "Holland",
+    "min": 35,
+    "risk": "High water table (18 inches in some areas), Lake Michigan proximity, lakefront storm surge",
+    "hook": "Holland's notoriously high water table  sometimes just 18 inches below grade  means even minor foundation cracks lead to chronic basement flooding. Lake proximity creates storm surge risk that pushes water against lakeshore foundations.",
+    "lat": 42.7875,
+    "lng": -86.1089
+  },
+  {
+    "id": "muskegon-mi",
+    "name": "Muskegon",
+    "min": 40,
+    "risk": "Muskegon Lake storm surge, Lake Michigan NW storms, pre-1950 housing stock",
+    "hook": "Muskegon Lake is a connected channel lake opening directly to Lake Michigan. Northwest storms create dangerous surge events. The city's industrial waterfront and pre-1950 housing stock present complex restoration challenges.",
+    "lat": 43.2342,
+    "lng": -86.2484
+  },
+  {
+    "id": "hudsonville-mi",
+    "name": "Hudsonville",
+    "min": 25,
+    "risk": "Agricultural tile drain failures, rapid new construction, sump pump dependency",
+    "hook": "Hudsonville's agricultural history left tile drainage systems under many properties that can fail and backflow into basements. Rapid 2000s residential growth means appliance-level water damage is now peaking as those systems age.",
+    "lat": 42.8709,
+    "lng": -85.8653
+  },
+  {
+    "id": "zeeland-mi",
+    "name": "Zeeland",
+    "min": 30,
+    "risk": "Black River watershed flooding, Holland-area humidity, older downtown buildings",
+    "hook": "The Black River watershed near Zeeland creates flood exposure in its drainage basin. Zeeland's proximity to Lake Michigan gives it elevated humidity patterns that accelerate mold after any water intrusion.",
+    "lat": 42.8125,
+    "lng": -86.0189
+  },
+  {
+    "id": "comstock-park-mi",
+    "name": "Comstock Park",
+    "min": 15,
+    "risk": "Grand River flooding along West River Drive, spring thaw bank erosion",
+    "hook": "Comstock Park sits along the Grand River north of Grand Rapids. West River Drive properties experience direct bank erosion and crawlspace flooding during spring thaw. The community sits in a documented Grand River flood influence zone.",
+    "lat": 43.0406,
+    "lng": -85.6681
+  },
+  {
+    "id": "caledonia-mi",
+    "name": "Caledonia",
+    "min": 22,
+    "risk": "Thornapple River flooding, new construction drainage issues, rural-suburban mix",
+    "hook": "Caledonia Township's Thornapple River corridor creates flood exposure in the eastern part of the township. Rapid residential growth has created new construction adjacent to century-old farmsteads with complex drainage conflicts.",
+    "lat": 42.8103,
+    "lng": -85.5114
+  },
+  {
+    "id": "cedar-springs-mi",
+    "name": "Cedar Springs",
+    "min": 30,
+    "risk": "Little Muskegon River, severe freeze-thaw, heavy snowfall and ice dams",
+    "hook": "Cedar Springs, the Red Flannel Town, sits at the northern edge of our primary service area. Winters are colder and snowfall heavier  frozen pipe emergencies peak here December through March when temps drop below zero.",
+    "lat": 43.2242,
+    "lng": -85.5517
+  },
+  {
+    "id": "ada-mi",
+    "name": "Ada",
+    "min": 18,
+    "risk": "Thornapple and Grand River confluence flooding, high-value properties, spring snowmelt surge",
+    "hook": "Ada Township is where the Thornapple and Grand Rivers converge  making it particularly vulnerable to spring snowmelt flooding. Home to Amway headquarters, Ada's high-value properties deserve expert restoration, not a franchise crew.",
+    "lat": 42.9607,
+    "lng": -85.4955
+  },
+  {
+    "id": "grandville-mi",
+    "name": "Grandville",
+    "min": 20,
+    "risk": "US-131 corridor flooding, 1960s-80s housing failures, Plaster Creek watershed proximity",
+    "hook": "Grandville's US-131 position and mix of 1960s-80s residential with commercial districts along 28th Street SW sees consistent flood and appliance-failure calls. Original perimeter drain tile in older ranches has deteriorated.",
+    "lat": 42.9022,
+    "lng": -85.7539
+  },
+  {
+    "id": "jenison-mi",
+    "name": "Jenison",
+    "min": 22,
+    "risk": "Macatawa River watershed, aging 1990s appliances, sump pump failures during outages",
+    "hook": "Jenison's Macatawa River watershed creates flood risk in low-lying subdivisions. 20-30 year old homes have appliances entering failure age. Sump pump failures during power outages are the most common call type we receive from Jenison.",
+    "lat": 42.9056,
+    "lng": -85.8323
+  },
+  {
+    "id": "lowell-mi",
+    "name": "Lowell",
+    "min": 28,
+    "risk": "Flat and Grand River dual-flood zone, downtown 100-year floodplain, near-annual flooding",
+    "hook": "Lowell sits at the confluence of the Flat River AND the Grand River. The downtown sits in a documented 100-year floodplain. Flooding here isn't a risk  it's a near-annual event for properties near the rivers.",
+    "lat": 42.9334,
+    "lng": -85.3406
+  },
+  {
+    "id": "allendale-mi",
+    "name": "Allendale",
+    "min": 28,
+    "risk": "Student housing deferred maintenance, GVSU commercial facilities, agricultural tile drains",
+    "hook": "Allendale is home to Grand Valley State University. Student rental properties with deferred maintenance are high-risk for unaddressed water damage. Agricultural tile drainage systems in the flatlands can reverse-flow into newer basements.",
+    "lat": 42.9723,
+    "lng": -85.9517
+  },
+  {
+    "id": "coopersville-mi",
+    "name": "Coopersville",
+    "min": 33,
+    "risk": "Ottawa County clay soil saturation, older Main Street buildings, poor natural drainage",
+    "hook": "Coopersville sits on Ottawa County's flattest agricultural plain. Clay soil creates poor drainage conditions  properties here see regular spring flooding from simple soil saturation, even without a dramatic rain event.",
+    "lat": 43.0631,
+    "lng": -85.9389
+  },
+  {
+    "id": "east-grand-rapids-mi",
+    "name": "East Grand Rapids",
+    "min": 12,
+    "risk": "Reeds Lake flooding, high-value property restoration, aging brick estate plumbing",
+    "hook": "East Grand Rapids is one of West Michigan's most prestigious communities. Reeds Lake properties and high-end homes along Lake Drive and Wealthy St deserve expert restoration. One wrong move with improper drying ruins irreplaceable hardwood and custom finishes.",
+    "lat": 42.9511,
+    "lng": -85.6111
+  },
+  {
+    "id": "norton-shores-mi",
+    "name": "Norton Shores",
+    "min": 42,
+    "risk": "Lake Michigan storm surge, Bear Lake and Mona Lake flooding, high-value lakefront properties",
+    "hook": "Norton Shores borders Muskegon on Lake Michigan's shore. Lakefront properties face storm surge from northwest winter storms. Properties also face flooding from Bear Lake and Mona Lake  simultaneous multi-source water events are possible.",
+    "lat": 43.1556,
+    "lng": -86.2422
+  },
+  {
+    "id": "spring-lake-mi",
+    "name": "Spring Lake",
+    "min": 38,
+    "risk": "Spring Lake flooding, Grand River outlet surge, boat wake erosion, lake-level rise",
+    "hook": "Spring Lake village sits where the lake connects to Lake Michigan via the Grand River outlet. Properties face constant moisture from lake-level fluctuations, and Grand River surge during snowmelt can push water up through the channel simultaneously.",
+    "lat": 43.0761,
+    "lng": -86.1972
+  },
+  {
+    "id": "grand-haven-mi",
+    "name": "Grand Haven",
+    "min": 40,
+    "risk": "Grand River-Lake Michigan confluence flooding, beach erosion, commercial tourism property damage",
+    "hook": "Grand Haven is where the Grand River meets Lake Michigan  a dramatic confluence creating serious flood risk. Beachfront and channel properties regularly see water intrusion. Commercial restoration for hotels and restaurants on the waterfront is common.",
+    "lat": 43.0631,
+    "lng": -86.2311
+  },
+  {
+    "id": "ferrysburg-mi",
+    "name": "Ferrysburg",
+    "min": 40,
+    "risk": "Grand River channel flooding, Lake Michigan exposure, seasonal unmonitored property damage",
+    "hook": "Ferrysburg shares the Grand River channel and Lake Michigan exposure with Grand Haven. Many seasonal and vacation properties go unmonitored  water damage can reach severe levels by the time owners return.",
+    "lat": 43.0856,
+    "lng": -86.2245
+  },
+  {
+    "id": "fruitport-mi",
+    "name": "Fruitport",
+    "min": 42,
+    "risk": "Spring Lake proximity, Ottawa/Muskegon County agricultural tile drains",
+    "hook": "Fruitport Township surrounds Spring Lake in Ottawa and Muskegon Counties. Agricultural tile drain system failures push water up into basements across the township. Distance from competitors makes Ryan the fastest expert response available here.",
+    "lat": 43.1256,
+    "lng": -86.1556
+  },
+  {
+    "id": "whitehall-mi",
+    "name": "Whitehall",
+    "min": 48,
+    "risk": "White Lake storm surge, Lake Michigan coastal flooding, historic downtown water intrusion",
+    "hook": "Whitehall sits on White Lake, a coastal lake connected to Lake Michigan. Storm surge from northwest Michigan weather is severe here. We're 48 minutes from Walker but still the fastest professional restoration in the White Lake area.",
+    "lat": 43.4111,
+    "lng": -86.3472
+  },
+  {
+    "id": "montague-mi",
+    "name": "Montague",
+    "min": 48,
+    "risk": "White Lake flooding, Lake Michigan coastal exposure, seasonal property damage",
+    "hook": "Montague shares White Lake's storm surge risk with Whitehall. The compact waterfront community sees identical coastal flooding exposure. Seasonal properties here go unmonitored in winter  spring discoveries require comprehensive remediation.",
+    "lat": 43.4167,
+    "lng": -86.3578
+  },
+  {
+    "id": "sparta-mi",
+    "name": "Sparta",
+    "min": 32,
+    "risk": "Rogue River watershed drainage, freeze-thaw pipe failures, agricultural tile drains",
+    "hook": "Sparta is a small agricultural city in northwest Kent County. The Rogue River watershed drains the area, creating seasonal flood risk. Northern location means harder freeze-thaw cycles  burst pipe emergencies are common January through March.",
+    "lat": 43.1581,
+    "lng": -85.7095
+  },
+  {
+    "id": "cutlerville-mi",
+    "name": "Cutlerville",
+    "min": 16,
+    "risk": "Aging 1960s-70s housing, flat terrain water ponding, Division Ave commercial flooding",
+    "hook": "Cutlerville connects Grand Rapids and Byron Center along Division Avenue. The heavily residential area has aging 1960s-70s housing. The flat terrain along 68th Street creates ponding conditions during even moderate Michigan rain events.",
+    "lat": 42.8425,
+    "lng": -85.6631
+  },
+  {
+    "id": "byron-center-mi",
+    "name": "Byron Center",
+    "min": 22,
+    "risk": "New construction drainage issues, agricultural tile conflicts, rapid development strain",
+    "hook": "Byron Center is a fast-growing community where agricultural land is rapidly converting to residential. New subdivisions create drainage conflicts with legacy agricultural tile systems that weren't designed for residential density.",
+    "lat": 42.8125,
+    "lng": -85.7064
+  },
+  {
+    "id": "forest-hills-mi",
+    "name": "Forest Hills",
+    "min": 17,
+    "risk": "High-value custom homes, Thornapple River tributary moisture, Forest Hills Drive estate flooding",
+    "hook": "Forest Hills is one of West Michigan's most sought-after communities. High-value custom homes here require the most careful restoration  improper drying permanently damages hardwood floors and custom finishes that cannot be replaced.",
+    "lat": 42.9647,
+    "lng": -85.5003
+  },
+  {
+    "id": "cascade-mi",
+    "name": "Cascade",
+    "min": 20,
+    "risk": "Thornapple River flooding, high-value Cascade Township estates, wooded humidity elevation",
+    "hook": "Cascade Township borders Ada along the Thornapple River. Upscale residential properties near the river see significant flood exposure. The heavily wooded landscape keeps ambient humidity elevated, accelerating mold growth after water intrusion.",
+    "lat": 42.9134,
+    "lng": -85.5003
+  },
+  {
+    "id": "gaines-mi",
+    "name": "Gaines",
+    "min": 20,
+    "risk": "US-131 commercial flooding, agricultural-to-residential drainage conflict, clay tile overload",
+    "hook": "Gaines Township is rapidly developing along US-131 south of Wyoming. Agricultural to residential conversion creates drainage conflicts, and new subdivisions push water into clay tile systems that weren't designed for the density.",
+    "lat": 42.8361,
+    "lng": -85.5947
+  },
+  {
+    "id": "georgetown-mi",
+    "name": "Georgetown",
+    "min": 25,
+    "risk": "Macatawa River watershed flooding, Ottawa County growth strain, high water table near parks",
+    "hook": "Georgetown Township is Ottawa County's largest township and one of West Michigan's fastest-growing communities. The Macatawa River watershed drains through Georgetown, and the massive county park system has high-water-table zones near residential areas.",
+    "lat": 42.8953,
+    "lng": -85.8822
+  },
+  {
+    "id": "jamestown-mi",
+    "name": "Jamestown",
+    "min": 30,
+    "risk": "Agricultural tile drain failures, rural property delayed discovery, Black Creek drainage",
+    "hook": "Jamestown Township sits in Ottawa County's interior agricultural belt. Tile drainage system failures push water into basements without warning. Rural property spacing means water damage goes undetected longer, worsening the remediation scope.",
+    "lat": 42.8189,
+    "lng": -85.8361
+  },
+  {
+    "id": "plainfield-mi",
+    "name": "Plainfield",
+    "min": 12,
+    "risk": "Grand River flooding along Riverside Drive NE, Plainfield Ave commercial flooding",
+    "hook": "Plainfield Township stretches along the Grand River corridor north of Grand Rapids. River proximity creates flood zones along Riverside Drive NE. Plainfield Ave is one of West Michigan's busiest commercial corridors and sees regular business flooding.",
+    "lat": 43.0603,
+    "lng": -85.5947
+  },
+  {
+    "id": "alpine-mi",
+    "name": "Alpine",
+    "min": 8,
+    "risk": "Alpine Ave commercial flooding, clay soil saturation, Grand River tributary spring flooding",
+    "hook": "Alpine Township is right in Ryan's backyard  just 8 minutes from the Walker shop. Alpine Ave NW is one of West Michigan's primary commercial corridors. Heavy clay soil and spring snowmelt from the Snowbelt push water against foundations annually.",
+    "lat": 43.0514,
+    "lng": -85.7335
+  },
+  {
+    "id": "port-sheldon-mi",
+    "name": "Port Sheldon",
+    "min": 38,
+    "risk": "Lake Michigan direct storm surge, coastal erosion, seasonal unoccupied lakefront properties",
+    "hook": "Port Sheldon Township sits directly on Lake Michigan. Properties here face the most severe Lake Michigan storm exposure in our entire service area. Seasonal lakefront homes require special coordination for owners not on-site during winter storm damage.",
+    "lat": 42.9003,
+    "lng": -86.1556
+  },
+  {
+    "id": "blendon-mi",
+    "name": "Blendon",
+    "min": 32,
+    "risk": "Black Creek watershed, agricultural tile drain failures, Ottawa County clay soils",
+    "hook": "Blendon Township is agricultural heartland where Black Creek drainage and agricultural tile systems create consistent water intrusion risk for rural residential properties. Ryan reaches here ahead of any other qualified restoration company.",
+    "lat": 42.9003,
+    "lng": -86.0111
+  },
+  {
+    "id": "tallmadge-mi",
+    "name": "Tallmadge",
+    "min": 18,
+    "risk": "Grand River tributary flooding along Leonard St NW, suburban conversion drainage conflict",
+    "hook": "Tallmadge Township sits northwest of Walker along the I-96 corridor. Grand River tributaries create flood zones along Leonard Street NW. Older farmsteads being converted to residential use often reveal decades of unaddressed moisture history.",
+    "lat": 42.9861,
+    "lng": -85.8361
+  },
+  {
+    "id": "wright-mi",
+    "name": "Wright",
+    "min": 38,
+    "risk": "Crockery Creek flooding, agricultural tile failures, remote rural response area",
+    "hook": "Wright Township in Ottawa County has tile drainage systems beneath virtually every property. The Crockery Creek watershed creates seasonal flooding. Remote location means emergency water damage response from other companies is 60+ minutes  Ryan reaches here fastest.",
+    "lat": 43.0806,
+    "lng": -85.8361
+  },
+  {
+    "id": "chester-mi",
+    "name": "Chester",
+    "min": 42,
+    "risk": "Pigeon River watershed flooding, remote rural property damage, agricultural tile drain failures",
+    "hook": "Chester Township in Ottawa County is one of our most rural service communities. The Pigeon River watershed creates spring flooding risk. Ryan deploys immediately from Walker  we're still the fastest qualified restoration response in the Chester Township area.",
+    "lat": 43.12,
+    "lng": -85.95
+  },
+  {
+    "id": "sullivan-mi",
+    "name": "Sullivan",
+    "min": 45,
+    "risk": "Muskegon County severe freeze-thaw, coastal weather influence, rural septic proximity",
+    "hook": "Sullivan Township in Muskegon County has more severe freeze-thaw cycles than the Grand Rapids metro. Coastal weather systems amplify winter severity. Rural septic systems near agricultural operations create complex Category 3 scenarios when they fail.",
+    "lat": 43.1256,
+    "lng": -86.0861
+  },
+  {
+    "id": "ravenna-mi",
+    "name": "Ravenna",
+    "min": 38,
+    "risk": "Crockery Creek and Wolf Creek flooding, historic village buildings, creek-adjacent humidity",
+    "hook": "Ravenna village sits where Crockery Creek and Wolf Creek create genuine flood risk for downtown and riparian properties. Historic village character requires restoration that preserves architectural integrity. Creek proximity keeps baseline humidity elevated.",
+    "lat": 43.1903,
+    "lng": -86.0111
+  },
+  {
+    "id": "moorland-mi",
+    "name": "Moorland",
+    "min": 40,
+    "risk": "Remote rural Muskegon County drainage, agricultural tile systems, delayed property discovery",
+    "hook": "Moorland Township in Muskegon County is one of our most remote service areas. Agricultural tile drainage failures and rural property isolation mean water damage is often discovered days or weeks after it begins  requiring more intensive remediation.",
+    "lat": 43.3256,
+    "lng": -86.0861
+  },
+  {
+    "id": "ionia-mi",
+    "name": "Ionia",
+    "min": 42,
+    "risk": "Grand River flooding at eastern service radius, historic downtown floodplain",
+    "hook": "Ionia is the seat of Ionia County, situated along the Grand River at the eastern edge of our 60-mile service radius. Grand River flooding impacts riverside neighborhoods annually. The historic downtown sits in a documented floodplain.",
+    "lat": 42.9875,
+    "lng": -85.0606
+  },
+  {
+    "id": "greenville-mi",
+    "name": "Greenville",
+    "min": 45,
+    "risk": "Flat River headwaters flooding, Montcalm County spring snowmelt, northern Michigan freeze-thaw",
+    "hook": "Greenville is the seat of Montcalm County at the far northern reach of our service area. Flat River headwaters drainage through the area creates spring flood risk. Northerly location means longer winters and more severe freeze-thaw pipe damage.",
+    "lat": 43.1778,
+    "lng": -85.2528
+  },
+  {
+    "id": "hastings-mi",
+    "name": "Hastings",
+    "min": 45,
+    "risk": "Thornapple River downtown floodplain, Barry County spring snowmelt, historic downtown flooding",
+    "hook": "Hastings is the seat of Barry County on the Thornapple River. The river flows through downtown in a documented floodplain affecting Main Street commercial and riverside residential properties. Spring snowmelt from the upper watershed creates the most severe events.",
+    "lat": 42.6456,
+    "lng": -85.2897
+  },
+  {
+    "id": "dorr-mi",
+    "name": "Dorr",
+    "min": 32,
+    "risk": "Agricultural tile drain failures, Allegan County clay soil, rural delayed discovery",
+    "hook": "Dorr Township in Allegan County is primarily agricultural. Tile drainage systems beneath properties frequently fail and reverse-flow into basements. Rural character means emergency response from competitors is slow  Ryan often arrives first even from Walker.",
+    "lat": 42.7231,
+    "lng": -85.7189
+  },
+  {
+    "id": "kent-city-mi",
+    "name": "Kent City",
+    "min": 30,
+    "risk": "Rogue River watershed flooding, freeze-thaw pipe damage, older village infrastructure",
+    "hook": "Kent City is a small village in Solon Township near the Newaygo County border. Rogue River tributary spring flooding affects properties in the drainage basin. Northern Kent County location means harder winters and more frequent frozen pipe emergencies.",
+    "lat": 43.2203,
+    "lng": -85.7511
+  },
+  {
+    "id": "wayland-mi",
+    "name": "Wayland",
+    "min": 40,
+    "risk": "Gun Lake watershed flooding, Allegan County agricultural drainage, older city infrastructure",
+    "hook": "Wayland sits in the Gun Lake chain drainage system at the southern edge of our service area. High water events in the Gun Lake watershed create area-wide flood conditions. Lake proximity elevates summer humidity, accelerating mold after water events.",
+    "lat": 42.6739,
+    "lng": -85.6444
+  },
+  {
+    "id": "grant-mi",
+    "name": "Grant",
+    "min": 38,
+    "risk": "Muskegon River watershed flooding, remote Newaygo County rural properties",
+    "hook": "Grant village sits at the Newaygo-Muskegon County junction on the Muskegon River watershed  one of Michigan's largest river systems. Spring flooding on this watershed can be dramatic. Remote location makes Ryan the most capable and fastest professional restoration response.",
+    "lat": 43.3361,
+    "lng": -85.8111
+  }
+]
