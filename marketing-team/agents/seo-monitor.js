@@ -28,9 +28,9 @@ const REPORTS_DIR = path.join(__dirname, '../reports');
 // Pages to audit in the full run
 const AUDIT_PAGES = [
   { label: 'Homepage',              url: 'https://disaster911.net/' },
-  { label: 'Water Damage (GR)',     url: 'https://disaster911.net/service-areas/grand-rapids/water-damage-restoration/' },
-  { label: 'Water Damage (Kentwd)', url: 'https://disaster911.net/service-areas/kentwood/water-damage-restoration/' },
-  { label: 'Water Damage (Wyomng)', url: 'https://disaster911.net/service-areas/wyoming/water-damage-restoration/' },
+  { label: 'Water Damage (GR)',     url: 'https://disaster911.net/water-damage-restoration/grand-rapids-mi/' },
+  { label: 'Water Damage (Kentwd)', url: 'https://disaster911.net/water-damage-restoration/kentwood-mi/' },
+  { label: 'Water Damage (Wyomng)', url: 'https://disaster911.net/water-damage-restoration/wyoming-mi/' },
 ];
 
 // Core Web Vitals thresholds (Google's official values)

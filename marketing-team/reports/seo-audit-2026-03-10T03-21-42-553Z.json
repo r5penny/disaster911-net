@@ -1,0 +1,175 @@
+{
+  "type": "seo-audit",
+  "timestamp": "2026-03-10T03:21:29.491Z",
+  "business": "Disaster Response by Ryan",
+  "website": "https://disaster911.net",
+  "sitemap": {
+    "sitemapUrl": "https://disaster911.net/sitemap.xml",
+    "accessible": true,
+    "totalUrls": 226,
+    "sampledUrls": [
+      {
+        "url": "https://disaster911.net/blog/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/mold-remediation/wyoming-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/fire-damage-restoration/hudsonville-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/water-damage-restoration/wright-mi/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "https://disaster911.net/water-damage-restoration/chester-mi/",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "allSamples200": true,
+    "error": null
+  },
+  "pages": [
+    {
+      "label": "Homepage",
+      "url": "https://disaster911.net/",
+      "pageSpeed": {
+        "url": "https://disaster911.net/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "https://disaster911.net/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "https://disaster911.net/",
+        "schemasFound": [
+          "ImageGallery",
+          "LocalBusiness"
+        ],
+        "expectedPresent": [
+          "LocalBusiness"
+        ],
+        "expectedMissing": [
+          "Organization"
+        ],
+        "optionalPresent": [],
+        "parseErrors": [],
+        "valid": false,
+        "error": null
+      }
+    },
+    {
+      "label": "Water Damage (GR)",
+      "url": "https://disaster911.net/service-areas/grand-rapids/water-damage-restoration/",
+      "pageSpeed": {
+        "url": "https://disaster911.net/service-areas/grand-rapids/water-damage-restoration/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "https://disaster911.net/service-areas/grand-rapids/water-damage-restoration/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "https://disaster911.net/service-areas/grand-rapids/water-damage-restoration/",
+        "schemasFound": [],
+        "expectedPresent": [],
+        "expectedMissing": [],
+        "optionalPresent": [],
+        "parseErrors": [],
+        "valid": false,
+        "error": "HTTP 404"
+      }
+    },
+    {
+      "label": "Water Damage (Kentwd)",
+      "url": "https://disaster911.net/service-areas/kentwood/water-damage-restoration/",
+      "pageSpeed": {
+        "url": "https://disaster911.net/service-areas/kentwood/water-damage-restoration/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "https://disaster911.net/service-areas/kentwood/water-damage-restoration/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "https://disaster911.net/service-areas/kentwood/water-damage-restoration/",
+        "schemasFound": [],
+        "expectedPresent": [],
+        "expectedMissing": [],
+        "optionalPresent": [],
+        "parseErrors": [],
+        "valid": false,
+        "error": "HTTP 404"
+      }
+    },
+    {
+      "label": "Water Damage (Wyomng)",
+      "url": "https://disaster911.net/service-areas/wyoming/water-damage-restoration/",
+      "pageSpeed": {
+        "url": "https://disaster911.net/service-areas/wyoming/water-damage-restoration/",
+        "mobile": {
+          "error": "HTTP 429"
+        },
+        "desktop": {
+          "error": "HTTP 429"
+        },
+        "error": null
+      },
+      "coreVitals": {
+        "url": "https://disaster911.net/service-areas/wyoming/water-damage-restoration/",
+        "error": "HTTP 429",
+        "metrics": {}
+      },
+      "schema": {
+        "url": "https://disaster911.net/service-areas/wyoming/water-damage-restoration/",
+        "schemasFound": [],
+        "expectedPresent": [],
+        "expectedMissing": [],
+        "optionalPresent": [],
+        "parseErrors": [],
+        "valid": false,
+        "error": "HTTP 404"
+      }
+    }
+  ],
+  "summary": {
+    "totalPagesAudited": 4,
+    "avgMobilePerformance": null,
+    "sitemapHealthy": true,
+    "totalSitemapUrls": 226,
+    "pagesWithValidSchema": 0,
+    "issuesFound": [
+      "Homepage: missing schema types"
+    ]
+  }
+}

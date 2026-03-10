@@ -345,7 +345,30 @@ function head({ title, desc, canonical, faqSchema, svcLabel }) {
     [
     {
         "@context":"https://schema.org",
-        "@type":"LocalBusiness",
+        "@type":"Organization",
+        "@id":"https://disaster911.net/#organization",
+        "name":"Disaster Response by Ryan",
+        "url":"https://disaster911.net",
+        "logo":{
+            "@type":"ImageObject",
+            "url":"https://disaster911.net/images/logo.png",
+            "width":220,
+            "height":60
+        },
+        "contactPoint":{
+            "@type":"ContactPoint",
+            "telephone":"+1-616-822-1978",
+            "contactType":"emergency",
+            "areaServed":"US",
+            "availableLanguage":"en"
+        },
+        "sameAs":[
+            "https://www.facebook.com/disaster911net"
+        ]
+    },
+    {
+        "@context":"https://schema.org",
+        "@type":["LocalBusiness","HomeAndConstructionBusiness"],
         "name":"Disaster Response by Ryan",
         "telephone":"${PHONE_DISPLAY}",
         "url":"https://disaster911.net",
